@@ -1,6 +1,6 @@
 class Solution:
     def maximumElementAfterDecrementingAndRearranging(self, arr: List[int]) -> int:
-        
+        #an alternative solution
         arr.sort(reverse=True)
         
         if arr[-1] != 1:
